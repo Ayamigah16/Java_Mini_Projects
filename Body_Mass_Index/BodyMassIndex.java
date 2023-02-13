@@ -8,9 +8,9 @@ public class BodyMassIndex {
 
     // asking user for inputs
     System.out.println("Enter your height and weight respectively.");
-    System.out.println("Heght : ");
+    System.out.println("Heght(meters) : ");
     double height = input.nextDouble();
-    System.out.println("Weight : ");
+    System.out.println("Weight(kilograms) : ");
     double weight = input.nextDouble();
 
     // calculating the Body Mass Index (BMI)
@@ -33,5 +33,6 @@ public class BodyMassIndex {
         System.out.println("Your BMI is " + BMI);
         System.out.println("Interpretation => Obese");
     }
+    input.close();
    } 
 }
