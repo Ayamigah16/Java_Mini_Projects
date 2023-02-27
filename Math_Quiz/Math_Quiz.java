@@ -93,7 +93,7 @@ public class Math_Quiz {
                     }
 
                     continue;
-                case 3:
+                case 3: // sholud be able to work for three numbers
                     System.out.println("===> Addition of Numbers <===");
                     while (true) {
                         // initializing two random numbers
